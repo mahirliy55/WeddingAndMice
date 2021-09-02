@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("../public/img/wreath_1.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-attachment: fixed;
+}
+.bgSpecial {
+  background: #334155e6;
+}
+.sliderSection {
+  width: 75%;
+  margin: 0 auto;
+}
+.sliderSection img {
+  border-radius: 15px;
+}
+.slick-dots li.slick-active button:before {
+  font-size: 18px;
+  color: #e6cba6;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: #e6cba6;
+  opacity: 1;
+  font-size: 53px;
+}
+.slick-dots {
+  bottom: -48px;
+}
+.logo {
+  width: 15%;
+}
+.logo img {
+  width: 100%;
+}
+.informationCards {
+  margin-top: 13rem;
+  background: #e4ecf5de;
+}
+.fill-current5 {
+  color: #e4ecf5de !important;
+  display: none;
+}
+.fill-current2 {
+  display: none;
+}
+.break-words {
+  background: #e4880e57;
+}
+.fill-current {
+  background-color: #e4880e57;
+}
+.polygonCard {
+  color: #e6cba6;
+}
+.slick-prev {
+  left: -60px;
+}
+.callBack {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 25px;
+  padding: 5px;
+}
+.multiSlider {
+  width: 100%;
+  padding: 5rem 20rem;
+  background: #fffffff0;
+}
+.reviews {
+  opacity: 0.3;
+  width: 90% !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  body {
+    background-size: cover;
+  }
+  .logo{
+    width: 50%;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    display: none;
+  }
+  .multiSlider {
+    display: none;
+  }
+  .sliderSection {
+    width: 88%;
+    margin-top: 8rem;
+  }
+  .w-10\/12 {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .informationCards{
+    margin-top: 7rem;
+  }
+  .miceCards{
+    margin-top: 2rem;
+  }
+  .mt-48{
+    margin-top: 6rem;
+  }
+  .mt-32{
+    margin-top: 13rem;
+  }
+  .pr-12{
+    margin-top: 5rem;
+  }
+
+}
